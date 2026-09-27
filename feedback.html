@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Send feedback — Kerslide</title>
+  <meta name="description" content="Tell us what you like about Kerslide and what to improve.">
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="wrap top">
+    <a class="brand" href="./"><img src="img/icon.png" alt="" width="40" height="40"> Kerslide</a>
+    <nav><a href="support.html">Support</a></nav>
+  </header>
+  <main class="wrap doc">
+    <h1>Send feedback</h1>
+    <p>Thanks for playing! Every message is read, and ideas and bug reports shape the next update.
+      This page only prepares an email to <a href="mailto:support@kerslide.com">support@kerslide.com</a> — nothing is sent
+      until you send it yourself.</p>
+
+    <form id="fb" class="form" novalidate>
+      <fieldset class="stars">
+        <legend>How much do you enjoy Kerslide?</legend>
+        <input type="radio" id="s1" name="stars" value="1"><label for="s1" title="1 star"><span class="sr">1 star</span></label>
+        <input type="radio" id="s2" name="stars" value="2"><label for="s2" title="2 stars"><span class="sr">2 stars</span></label>
+        <input type="radio" id="s3" name="stars" value="3"><label for="s3" title="3 stars"><span class="sr">3 stars</span></label>
+        <input type="radio" id="s4" name="stars" value="4"><label for="s4" title="4 stars"><span class="sr">4 stars</span></label>
+        <input type="radio" id="s5" name="stars" value="5"><label for="s5" title="5 stars"><span class="sr">5 stars</span></label>
+      </fieldset>
+
+      <label for="liked">What did you like?</label>
+      <textarea id="liked" name="liked" rows="3" maxlength="1500"></textarea>
+
+      <label for="annoyed">What annoyed you, or what should we fix?</label>
+      <textarea id="annoyed" name="annoyed" rows="4" maxlength="1500"></textarea>
+
+      <label for="email">Your email <span class="muted">(optional — only if you'd like a reply at a different address)</span></label>
+      <input type="email" id="email" name="email" autocomplete="email" maxlength="200">
+
+      <p class="muted" id="meta" hidden>Included automatically: <span id="meta-text"></span></p>
+
+      <div class="cta">
+        <button type="submit" class="btn primary">Write the email</button>
+        <button type="button" class="btn secondary" id="copy">Copy text instead</button>
+      </div>
+      <p id="status" class="note" role="status" aria-live="polite" hidden></p>
+    </form>
+
+    <h2>Other ways to reach us</h2>
+    <p>Email <a href="mailto:support@kerslide.com">support@kerslide.com</a> directly, or read the <a href="support.html">FAQ</a>.
+      If you enjoy the game, a rating in your app store or on the game portal helps other players find it.</p>
+  </main>
+  <footer class="wrap foot"><a href="./">Home</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></footer>
+
+  <script>
+    (function () {
+      // Only the game version, platform and portal come from the link the game opens. Shown as text, never as HTML.
+      var q = new URLSearchParams(location.search);
+      function clean(v) { return (v || "").replace(/[^\w.+\- ]/g, "").slice(0, 40); }
+      var info = [];
+      if (clean(q.get("v"))) info.push("Version: " + clean(q.get("v")));
+      if (clean(q.get("p"))) info.push("Platform: " + clean(q.get("p")));
+      if (clean(q.get("portal"))) info.push("Portal: " + clean(q.get("portal")));
+      if (info.length) {
+        document.getElementById("meta-text").textContent = info.join(", ");
+        document.getElementById("meta").hidden = false;
+      }
+
+      var form = document.getElementById("fb");
+      var status = document.getElementById("status");
+      function say(text) { status.textContent = text; status.hidden = false; }
+
+      function compose() {
+        var stars = form.querySelector('input[name="stars"]:checked');
+        var lines = [];
+        lines.push("Rating: " + (stars ? stars.value + "/5" : "not given"));
+        lines.push("", "What I liked:", form.liked.value.trim() || "-");
+        lines.push("", "What annoyed me / what to fix:", form.annoyed.value.trim() || "-");
+        if (form.email.value.trim()) lines.push("", "Reply to: " + form.email.value.trim());
+        lines.push("", "---");
+        lines.push(info.length ? info.join("\n") : "Version/platform: (not from the game)");
+        lines.push("Browser: " + navigator.userAgent);
+        var subject = "Kerslide feedback" + (stars ? " (" + stars.value + "/5)" : "") + (clean(q.get("v")) ? " v" + clean(q.get("v")) : "");
+        return { subject: subject, body: lines.join("\n") };
+      }
+
+      function empty() {
+        return !form.querySelector('input[name="stars"]:checked') && !form.liked.value.trim() && !form.annoyed.value.trim();
+      }
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        if (empty()) { say("Add a rating or a few words first."); return; }
+        var m = compose();
+        location.href = "mailto:support@kerslide.com?subject=" + encodeURIComponent(m.subject) + "&body=" + encodeURIComponent(m.body);
+        say("Your email app should open with the message ready. Nothing happened? Use “Copy text instead” and paste it into an email to support@kerslide.com.");
+      });
+
+      document.getElementById("copy").addEventListener("click", function () {
+        if (empty()) { say("Add a rating or a few words first."); return; }
+        var m = compose();
+        var text = "To: support@kerslide.com\nSubject: " + m.subject + "\n\n" + m.body;
+        function done() { say("Copied. Paste it into an email to support@kerslide.com."); }
+        if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(done, fallback);
+        else fallback();
+        function fallback() {
+          var t = document.createElement("textarea");
+          t.value = text; t.setAttribute("readonly", ""); t.style.position = "fixed"; t.style.opacity = "0";
+          document.body.appendChild(t); t.select();
+          try { document.execCommand("copy"); done(); } catch (err) { say("Copy failed. Please email support@kerslide.com."); }
+          document.body.removeChild(t);
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
