@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Kerslide — block puzzle where clearing a line shifts the board</title>
+    <meta name="description" content="Kerslide: place blocks, clear lines, and watch the whole board shift. A calm, quick puzzle you can play in your browser.">
+    <meta name="theme-color" content="#F4F6FA">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Kerslide">
+    <meta property="og:description" content="Place blocks. Clear lines. The board shifts.">
+    <!-- og:image must be an absolute URL on the final host; set it when the web host is known (Docs/STORE_RELEASE.md). -->
+    <meta property="og:image" content="og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <style>
+      html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #F4F6FA;
+                   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #1D2433; }
+      #unity-canvas { position: fixed; inset: 0; width: 100vw; height: 100vh; height: 100dvh; display: block; outline: none;
+                      touch-action: none; -webkit-user-select: none; user-select: none; background: #F4F6FA; }
+      #loader { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 22px; }
+      #loader h1 { margin: 0; font-size: clamp(32px, 7vw, 64px); letter-spacing: -1px; }
+      #bar { width: min(320px, 70vw); height: 10px; border-radius: 5px; background: #DCE3EE; overflow: hidden; }
+      #fill { width: 0; height: 100%; background: #2F6BFF; transition: width .15s; }
+      #msg { max-width: 80vw; text-align: center; font-size: 16px; color: #5D6679; min-height: 1.2em; }
+      #msg button { margin-top: 12px; font-size: 16px; padding: 10px 18px; border-radius: 10px; border: 0; background: #2F6BFF; color: #fff; cursor: pointer; }
+    </style>
+  </head>
+  <body>
+    <canvas id="unity-canvas" tabindex="-1"></canvas>
+    <div id="loader">
+      <h1>Kerslide</h1>
+      <div id="bar"><div id="fill"></div></div>
+      <div id="msg"></div>
+    </div>
+    <noscript>Kerslide needs JavaScript and WebGL 2 to run.</noscript>
+    <script>
+      var canvas = document.querySelector("#unity-canvas");
+      var loader = document.querySelector("#loader");
+      var msg = document.querySelector("#msg");
+      function showError(text) {
+        msg.innerHTML = "";
+        var p = document.createElement("div");
+        p.textContent = text;
+        var retry = document.createElement("button");
+        retry.textContent = "Try again";
+        retry.onclick = function () { location.reload(); };
+        msg.appendChild(p);
+        msg.appendChild(retry);
+      }
+      function unityShowBanner(text, type) { if (type === "error") showError(text); else console.warn(text); }
+
+      // Game portals: detect from the hostname (or ?portal=crazygames|poki for local testing) and load
+      // only that portal's SDK. Anywhere else (own site, itch.io) no SDK is loaded and there are no ads.
+      window.kerslidePortal = (function () {
+        var q = new URLSearchParams(location.search).get("portal");
+        if (q === "crazygames" || q === "poki") return q;
+        var h = location.hostname;
+        if (/(^|\.)crazygames\.[a-z.]+$/.test(h)) return "crazygames";
+        if (/(^|\.)(poki\.com|poki-gdn\.com|poki\.io)$/.test(h)) return "poki";
+        return "";
+      })();
+      function loadScript(src) {
+        return new Promise(function (resolve, reject) {
+          var s = document.createElement("script");
+          s.src = src; s.onload = resolve; s.onerror = reject;
+          document.head.appendChild(s);
+        });
+      }
+      if (window.kerslidePortal === "crazygames") {
+        window.kerslidePortalReady = loadScript("https://sdk.crazygames.com/crazygames-sdk-v3.js")
+          .then(function () { return window.CrazyGames.SDK.init(); })
+          .then(function () {
+            try { window.CrazyGames.SDK.game.loadingStart(); } catch (e) {}
+            return window.CrazyGames.SDK.environment !== "disabled";
+          });
+      } else if (window.kerslidePortal === "poki") {
+        window.kerslidePortalReady = loadScript("https://game-cdn.poki.com/scripts/v2/poki-sdk.js")
+          .then(function () { return window.PokiSDK.init(); })
+          .then(function () { return true; });
+      } else {
+        window.kerslidePortalReady = Promise.resolve(false);
+      }
+      // An ad blocker or SDK failure must never stop the game: it just runs without ads.
+      window.kerslidePortalReady = window.kerslidePortalReady.catch(function (e) { console.warn("[portal] init failed", e); return false; });
+
+      var gl = document.createElement("canvas").getContext("webgl2");
+      if (!gl) {
+        showError("This browser does not support WebGL 2. Please try a current version of Chrome, Edge, Firefox or Safari.");
+      } else {
+        var buildUrl = "Build";
+        var config = {
+          arguments: [],
+          dataUrl: buildUrl + "/f9919f3c184264b56cdae2d9b90d8989.data.unityweb",
+          frameworkUrl: buildUrl + "/614e5697ba8d1bab3216dee611357b6f.framework.js.unityweb",
+          codeUrl: buildUrl + "/d6b51ec9fb6f0420650844e30b723385.wasm.unityweb",
+          streamingAssetsUrl: "StreamingAssets",
+          companyName: "Kerslide",
+          productName: "Kerslide",
+          productVersion: "1.0.0",
+          showBanner: unityShowBanner,
+          // Cap the render scale on high-DPI phones to keep 60 fps.
+          devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2),
+        };
+        var script = document.createElement("script");
+        script.src = buildUrl + "/6eae6c9fc1f10a1226c3f2bdab3f2a72.loader.js";
+        script.onload = function () {
+          createUnityInstance(canvas, config, function (progress) {
+            document.querySelector("#fill").style.width = (100 * progress) + "%";
+          }).then(function () {
+            loader.remove();
+            canvas.focus();
+          }).catch(function (message) {
+            showError("The game could not start: " + message);
+          });
+        };
+        script.onerror = function () { showError("Could not download the game. Check your connection and try again."); };
+        document.body.appendChild(script);
+      }
+    </script>
+  </body>
+</html>
