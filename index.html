@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kerslide — clear lines, the board shifts</title>
+  <meta name="description" content="Kerslide is a calm block puzzle with one twist: every line you clear shifts the whole board. Free, offline, no timers.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kerslide">
+  <meta property="og:description" content="Place blocks. Clear lines. The board shifts.">
+  <meta property="og:url" content="https://kerslide.com/">
+  <meta property="og:image" content="https://kerslide.com/img/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="wrap top">
+    <a class="brand" href="./"><img src="img/icon.png" alt="" width="40" height="40"> Kerslide</a>
+    <nav><a href="privacy.html">Privacy</a> <a href="support.html">Support</a></nav>
+  </header>
+
+  <main>
+    <section class="wrap hero">
+      <div class="copy">
+        <h1>Clear lines.<br>The board shifts.</h1>
+        <p class="lead">A calm block puzzle with one twist. Fill a row and every block slides one step right.
+          Fill a column and everything slides down. Plan for it — or be surprised.</p>
+        <!-- Store buttons: add each link only once that store page is live. -->
+        <div class="cta" id="cta">
+          <a class="btn primary" id="play-web" href="#" hidden>Play in your browser</a>
+          <span class="soon" id="soon">Coming soon to iPhone, iPad, Android and Steam.</span>
+        </div>
+        <ul class="points">
+          <li>Learn it in seconds</li>
+          <li>No timers, no energy, no lives</li>
+          <li>Works offline — no account</li>
+          <li>Daily challenge</li>
+          <li>Colorblind-friendly shapes and high-contrast mode</li>
+        </ul>
+      </div>
+      <div class="phones">
+        <img src="img/play.webp" alt="Kerslide gameplay: placing blocks on an 8 by 8 board" width="360" height="780">
+        <img src="img/shift.webp" alt="Preview showing a column about to clear and an arrow for the shift" width="360" height="780">
+      </div>
+    </section>
+
+    <section class="wrap how">
+      <h2>How it works</h2>
+      <div class="steps">
+        <div><b>1</b><p>Drag pieces onto the 8×8 board.</p></div>
+        <div><b>2</b><p>Complete a row or a column and it clears.</p></div>
+        <div><b>3</b><p>Then the whole board shifts — right for rows, down for columns. Blocks pushed off the edge are gone.</p></div>
+        <div><b>4</b><p>Keep going until no piece fits. Beat your best.</p></div>
+      </div>
+    </section>
+
+    <section class="wrap desktop">
+      <img src="img/desktop.webp" alt="Kerslide on desktop" width="720" height="405">
+      <p>On PC and Mac: mouse, keyboard or controller, Steam Deck friendly.</p>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <span>© <span id="year">2026</span> Kerslide</span>
+    <a href="privacy.html">Privacy policy</a>
+    <a href="terms.html">Terms</a>
+    <a href="support.html">Support</a>
+  </footer>
+
+  <script>
+    // Set PLAY_URL once the browser version is live (e.g. the itch.io page). Nothing is shown until then.
+    var PLAY_URL = "";
+    if (PLAY_URL) { var b = document.getElementById("play-web"); b.href = PLAY_URL; b.hidden = false; }
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
