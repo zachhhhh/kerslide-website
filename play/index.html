@@ -51,39 +51,9 @@
       }
       function unityShowBanner(text, type) { if (type === "error") showError(text); else console.warn(text); }
 
-      // Game portals: detect from the hostname (or ?portal=crazygames|poki for local testing) and load
-      // only that portal's SDK. Anywhere else (own site, itch.io) no SDK is loaded and there are no ads.
-      window.kerslidePortal = (function () {
-        var q = new URLSearchParams(location.search).get("portal");
-        if (q === "crazygames" || q === "poki") return q;
-        var h = location.hostname;
-        if (/(^|\.)crazygames\.[a-z.]+$/.test(h)) return "crazygames";
-        if (/(^|\.)(poki\.com|poki-gdn\.com|poki\.io)$/.test(h)) return "poki";
-        return "";
-      })();
-      function loadScript(src) {
-        return new Promise(function (resolve, reject) {
-          var s = document.createElement("script");
-          s.src = src; s.onload = resolve; s.onerror = reject;
-          document.head.appendChild(s);
-        });
-      }
-      if (window.kerslidePortal === "crazygames") {
-        window.kerslidePortalReady = loadScript("https://sdk.crazygames.com/crazygames-sdk-v3.js")
-          .then(function () { return window.CrazyGames.SDK.init(); })
-          .then(function () {
-            try { window.CrazyGames.SDK.game.loadingStart(); } catch (e) {}
-            return window.CrazyGames.SDK.environment !== "disabled";
-          });
-      } else if (window.kerslidePortal === "poki") {
-        window.kerslidePortalReady = loadScript("https://game-cdn.poki.com/scripts/v2/poki-sdk.js")
-          .then(function () { return window.PokiSDK.init(); })
-          .then(function () { return true; });
-      } else {
-        window.kerslidePortalReady = Promise.resolve(false);
-      }
-      // An ad blocker or SDK failure must never stop the game: it just runs without ads.
-      window.kerslidePortalReady = window.kerslidePortalReady.catch(function (e) { console.warn("[portal] init failed", e); return false; });
+      // Game portals (CrazyGames, Poki, GameDistribution, GameMonetize, GamePix) are detected and their SDK loaded by
+      // Assets/Plugins/WebGL/KerslidePortal.jspre, which is part of framework.js, so it also works when a portal serves
+      // its own index.html. A page may force one with window.kerslidePortal = "name" before the loader runs.
 
       var gl = document.createElement("canvas").getContext("webgl2");
       if (!gl) {
@@ -92,9 +62,9 @@
         var buildUrl = "Build";
         var config = {
           arguments: [],
-          dataUrl: buildUrl + "/1cf0d706a5586f26c93e43f76cf58081.data.unityweb",
-          frameworkUrl: buildUrl + "/ed9e51a4e065fedd9d85b21a040dea9e.framework.js.unityweb",
-          codeUrl: buildUrl + "/5d6a6cea99f9ee33bc5fc3e588cc8e35.wasm.unityweb",
+          dataUrl: buildUrl + "/838ed97d832b059fceb2306d3c07d307.data.unityweb",
+          frameworkUrl: buildUrl + "/aaa737da63bcb38aa350a306d505fa13.framework.js.unityweb",
+          codeUrl: buildUrl + "/badf131b5f27258e319cac422b02886f.wasm.unityweb",
           streamingAssetsUrl: "StreamingAssets",
           companyName: "Kerslide",
           productName: "Kerslide",
@@ -104,7 +74,7 @@
           devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2),
         };
         var script = document.createElement("script");
-        script.src = buildUrl + "/0015cdb13b1c367ca0474e18b4820324.loader.js";
+        script.src = buildUrl + "/f54d44cea9d27f90ea02c1ac45567789.loader.js";
         script.onload = function () {
           createUnityInstance(canvas, config, function (progress) {
             document.querySelector("#fill").style.width = (100 * progress) + "%";
