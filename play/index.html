@@ -92,9 +92,9 @@
         var buildUrl = "Build";
         var config = {
           arguments: [],
-          dataUrl: buildUrl + "/f9919f3c184264b56cdae2d9b90d8989.data.unityweb",
+          dataUrl: buildUrl + "/7c1f07cd2cac6ef0e9496e9072b1721e.data.unityweb",
           frameworkUrl: buildUrl + "/614e5697ba8d1bab3216dee611357b6f.framework.js.unityweb",
-          codeUrl: buildUrl + "/d6b51ec9fb6f0420650844e30b723385.wasm.unityweb",
+          codeUrl: buildUrl + "/7da233415ee09fb39c5271f169d814e8.wasm.unityweb",
           streamingAssetsUrl: "StreamingAssets",
           companyName: "Kerslide",
           productName: "Kerslide",
@@ -104,7 +104,7 @@
           devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2),
         };
         var script = document.createElement("script");
-        script.src = buildUrl + "/6eae6c9fc1f10a1226c3f2bdab3f2a72.loader.js";
+        script.src = buildUrl + "/c846012c3c9676ce0ac2b07fcae2b354.loader.js";
         script.onload = function () {
           createUnityInstance(canvas, config, function (progress) {
             document.querySelector("#fill").style.width = (100 * progress) + "%";
