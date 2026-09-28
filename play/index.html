@@ -14,7 +14,13 @@
     <link rel="canonical" href="https://kerslide.com/play/">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="apple-touch-icon" href="favicon.png">
+    <!-- PWA (installable + offline on kerslide.com/play only; see pwa.js / sw.js in this template) -->
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Kerslide">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <style>
       html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #F4F6FA;
                    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #1D2433; }
@@ -36,6 +42,14 @@
       <div id="msg"></div>
     </div>
     <noscript>Kerslide needs JavaScript and WebGL 2 to run.</noscript>
+    <script>
+      // Build file names for the service worker (pwa.js registers sw.js?build=… once the game runs).
+      window.kerslideBuild = { version: "1.0.0", files: [
+        "b231f70f1c9a525c0fd39ac9cfc05b22.loader.js", "21f1fe3587a74ee44f748cb77fec5635.framework.js.unityweb", "c59bf1ce437c37c7bc5faafb8eccfd20.data.unityweb",
+        "85ae5e84806db2ce39677b19fbee76fb.wasm.unityweb",
+      ] };
+    </script>
+    <script src="pwa.js" defer></script>
     <script>
       var canvas = document.querySelector("#unity-canvas");
       var loader = document.querySelector("#loader");
@@ -83,6 +97,7 @@
             window.kerslideUnity = instance; // for the browser smoke/layout tests (SendMessage)
             loader.remove();
             canvas.focus();
+            window.dispatchEvent(new Event("kerslide-ready")); // pwa.js: register the service worker now
           }).catch(function (message) {
             showError("The game could not start: " + message);
           });
