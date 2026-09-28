@@ -63,9 +63,9 @@
         var buildUrl = "Build";
         var config = {
           arguments: [],
-          dataUrl: buildUrl + "/838ed97d832b059fceb2306d3c07d307.data.unityweb",
-          frameworkUrl: buildUrl + "/aaa737da63bcb38aa350a306d505fa13.framework.js.unityweb",
-          codeUrl: buildUrl + "/badf131b5f27258e319cac422b02886f.wasm.unityweb",
+          dataUrl: buildUrl + "/c59bf1ce437c37c7bc5faafb8eccfd20.data.unityweb",
+          frameworkUrl: buildUrl + "/21f1fe3587a74ee44f748cb77fec5635.framework.js.unityweb",
+          codeUrl: buildUrl + "/85ae5e84806db2ce39677b19fbee76fb.wasm.unityweb",
           streamingAssetsUrl: "StreamingAssets",
           companyName: "Kerslide",
           productName: "Kerslide",
@@ -75,11 +75,12 @@
           devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2),
         };
         var script = document.createElement("script");
-        script.src = buildUrl + "/f54d44cea9d27f90ea02c1ac45567789.loader.js";
+        script.src = buildUrl + "/b231f70f1c9a525c0fd39ac9cfc05b22.loader.js";
         script.onload = function () {
           createUnityInstance(canvas, config, function (progress) {
             document.querySelector("#fill").style.width = (100 * progress) + "%";
-          }).then(function () {
+          }).then(function (instance) {
+            window.kerslideUnity = instance; // for the browser smoke/layout tests (SendMessage)
             loader.remove();
             canvas.focus();
           }).catch(function (message) {
