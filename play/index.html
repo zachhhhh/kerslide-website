@@ -45,8 +45,8 @@
     <script>
       // Build file names for the service worker (pwa.js registers sw.js?build=… once the game runs).
       window.kerslideBuild = { version: "1.0.0", files: [
-        "f5b1fdb4c312320d4aa716f6edf0227b.loader.js", "424675e059ae0cb69bf4f0eec431dbed.framework.js.unityweb", "b8bcbaeacb5d4a9a8cb3124f5581fc8d.data.unityweb",
-        "41e26bd1ddb0dbc8d4d51a52c05939fb.wasm.unityweb",
+        "b15a28b065f5a11d9ecfc56372177b65.loader.js", "285e82b13ac332f4d2448e2ea380d7f8.framework.js.unityweb", "80a0aa09070e7ee8683d0aca63483d90.data.unityweb",
+        "b3bebfeb387c0a76834434f151fb74dc.wasm.unityweb",
       ] };
     </script>
     <script src="pwa.js" defer></script>
@@ -77,9 +77,9 @@
         var buildUrl = "Build";
         var config = {
           arguments: [],
-          dataUrl: buildUrl + "/b8bcbaeacb5d4a9a8cb3124f5581fc8d.data.unityweb",
-          frameworkUrl: buildUrl + "/424675e059ae0cb69bf4f0eec431dbed.framework.js.unityweb",
-          codeUrl: buildUrl + "/41e26bd1ddb0dbc8d4d51a52c05939fb.wasm.unityweb",
+          dataUrl: buildUrl + "/80a0aa09070e7ee8683d0aca63483d90.data.unityweb",
+          frameworkUrl: buildUrl + "/285e82b13ac332f4d2448e2ea380d7f8.framework.js.unityweb",
+          codeUrl: buildUrl + "/b3bebfeb387c0a76834434f151fb74dc.wasm.unityweb",
           streamingAssetsUrl: "StreamingAssets",
           companyName: "Kerslide",
           productName: "Kerslide",
@@ -89,7 +89,7 @@
           devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2),
         };
         var script = document.createElement("script");
-        script.src = buildUrl + "/f5b1fdb4c312320d4aa716f6edf0227b.loader.js";
+        script.src = buildUrl + "/b15a28b065f5a11d9ecfc56372177b65.loader.js";
         script.onload = function () {
           createUnityInstance(canvas, config, function (progress) {
             document.querySelector("#fill").style.width = (100 * progress) + "%";
@@ -99,7 +99,12 @@
             canvas.focus();
             window.dispatchEvent(new Event("kerslide-ready")); // pwa.js: register the service worker now
           }).catch(function (message) {
-            showError("The game could not start: " + message);
+            console.error("[kerslide] start failed:", message);
+            // A dropped connection shows up as a raw stack trace ("TypeError: Failed to fetch at instantiateAsync ...").
+            var text = String(message);
+            showError(/fetch|download|network|load failed/i.test(text)
+              ? "Could not download the game. Check your connection and try again."
+              : "The game could not start: " + text.split("\n")[0]);
           });
         };
         script.onerror = function () { showError("Could not download the game. Check your connection and try again."); };
