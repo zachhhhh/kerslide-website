@@ -6,9 +6,11 @@
   <title>Kerslide — free block puzzle: clear a line, the whole board shifts</title>
   <meta name="description" content="Play Kerslide free in your browser: a calm block puzzle where every line you clear slides the whole board. No download, no sign-up, no timers. Phone and desktop.">
   <link rel="canonical" href="https://kerslide.com/">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
   <meta name="theme-color" content="#F4F6FA">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Kerslide">
+  <meta property="og:locale" content="en_US">
   <meta property="og:title" content="Kerslide — clear a line, the whole board shifts">
   <meta property="og:description" content="A calm block puzzle with one twist. Free in your browser — no download, no sign-up.">
   <meta property="og:url" content="https://kerslide.com/">
@@ -22,6 +24,7 @@
   <meta name="twitter:image" content="https://kerslide.com/img/og.png">
   <meta name="twitter:image:alt" content="Kerslide logo: colored blocks and an arrow, with the line Clear lines. The board shifts.">
   <link rel="icon" href="favicon.png">
+  <link rel="preload" as="image" href="media/hero-poster.jpg" fetchpriority="high">
   <link rel="apple-touch-icon" href="img/icon.png">
   <link rel="stylesheet" href="style.css">
   <script type="application/ld+json">
@@ -41,7 +44,9 @@
     "operatingSystem": "Any (runs in a modern web browser)",
     "applicationCategory": "Game",
     "playMode": "SinglePlayer",
-    "inLanguage": ["en", "de", "es", "fr", "pt", "ja", "ko", "zh-Hans", "zh-Hant"],
+    "inLanguage": ["en", "de", "es", "fr", "it", "pt-BR", "pl", "tr", "id", "vi", "ru", "ja", "ko", "zh-Hans", "zh-Hant"],
+    "keywords": "block puzzle, free puzzle game, browser game, no download, relaxing puzzle, logic game, grid puzzle",
+    "potentialAction": { "@type": "PlayGameAction", "target": "https://kerslide.com/play/" },
     "isAccessibleForFree": true,
     "offers": {
       "@type": "Offer",
@@ -67,11 +72,14 @@
     }
   }
   </script>
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is Kerslide?", "acceptedAnswer": {"@type": "Answer", "text": "Kerslide is a free block puzzle for your browser. You place pieces on an 8×8 board, and every time you clear a line the whole board shifts: right after a row, down after a column."}}, {"@type": "Question", "name": "Is it really free? Do I need to download or sign up?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, it is free. There is nothing to download and no account to create. Open the page and play on your phone, tablet or computer. Your progress stays on your device."}}, {"@type": "Question", "name": "What happens to blocks pushed off the edge?", "acceptedAnswer": {"@type": "Answer", "text": "They are gone. That is what makes the shift matter: a clear can open space, or wreck the line you were building. The board shows the result before you drop a piece."}}, {"@type": "Question", "name": "Is there a timer?", "acceptedAnswer": {"@type": "Answer", "text": "No. There are no timers and no lives, so you can think as long as you like. There is also a daily challenge with the same start for everyone."}}, {"@type": "Question", "name": "Does it work offline and on phones?", "acceptedAnswer": {"@type": "Answer", "text": "It runs in any modern browser on phone, tablet and desktop, and loads about 4 MB to start. Add it to your home screen for one-tap access."}}, {"@type": "Question", "name": "Which languages are supported?", "acceptedAnswer": {"@type": "Answer", "text": "15: English, German, Spanish, French, Italian, Portuguese, Polish, Turkish, Indonesian, Vietnamese, Russian, Japanese, Korean, Simplified and Traditional Chinese."}}]}
+  </script>
 </head>
 <body>
   <header class="wrap top">
     <a class="brand" href="./"><img src="img/icon.png" alt="" width="40" height="40"> Kerslide</a>
-    <nav><a href="press.html">Press</a> <a href="support.html">Support</a></nav>
+    <nav><a class="navplay" href="/play/">Play</a> <a href="press.html">Press</a> <a href="support.html">Support</a></nav>
   </header>
 
   <main>
@@ -116,6 +124,16 @@
         <li><b>Accessible</b><span>Colorblind-friendly shapes, high contrast, reduced motion, larger text.</span></li>
         <li><b>No account</b><span>Your progress stays on your device. No sign-up, no trackers on this site.</span></li>
       </ul>
+    </section>
+
+    <section class="wrap faq">
+      <h2>Questions</h2>
+      <details><summary>What is Kerslide?</summary><p>Kerslide is a free block puzzle for your browser. You place pieces on an 8×8 board, and every time you clear a line the whole board shifts: right after a row, down after a column.</p></details>
+      <details><summary>Is it really free? Do I need to download or sign up?</summary><p>Yes, it is free. There is nothing to download and no account to create. Open the page and play on your phone, tablet or computer. Your progress stays on your device.</p></details>
+      <details><summary>What happens to blocks pushed off the edge?</summary><p>They are gone. That is what makes the shift matter: a clear can open space, or wreck the line you were building. The board shows the result before you drop a piece.</p></details>
+      <details><summary>Is there a timer?</summary><p>No. There are no timers and no lives, so you can think as long as you like. There is also a daily challenge with the same start for everyone.</p></details>
+      <details><summary>Does it work offline and on phones?</summary><p>It runs in any modern browser on phone, tablet and desktop, and loads about 4 MB to start. Add it to your home screen for one-tap access.</p></details>
+      <details><summary>Which languages are supported?</summary><p>15: English, German, Spanish, French, Italian, Portuguese, Polish, Turkish, Indonesian, Vietnamese, Russian, Japanese, Korean, Simplified and Traditional Chinese.</p></details>
     </section>
 
     <section class="wrap desktop">

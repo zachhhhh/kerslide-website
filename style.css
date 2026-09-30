@@ -70,6 +70,11 @@ h1 { font-size: clamp(38px, 6vw, 64px); line-height: 1.05; letter-spacing: -1.5p
 .shots img, .shots video { width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); }
 .shots figcaption { font-size: 14px; color: var(--muted); }
 .doc.wide { max-width: 980px; }
+.navplay { font-weight: 700; color: var(--accent, #2563eb); }
+.faq h2 { font-size: 30px; margin-top: 50px; }
+.faq details { border-bottom: 1px solid var(--line); padding: 12px 0; }
+.faq summary { cursor: pointer; font-weight: 600; }
+.faq p { color: var(--muted); margin: 8px 0 0; }
 @media (max-width: 800px) {
   .hero { grid-template-columns: 1fr; padding-top: 10px; gap: 20px; }
   .steps { grid-template-columns: 1fr 1fr; }
