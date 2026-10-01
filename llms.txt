@@ -1,0 +1,26 @@
+# Kerslide
+
+> Kerslide is a free, calm block puzzle that runs in the browser. You place pieces on an 8×8 board; every time you clear a line the whole board shifts: right after a row clear, down after a column clear. Blocks pushed off the edge are gone. No download, no sign-up, no timers or lives.
+
+Play: https://kerslide.com/play/ (about 4 MB to load, works on phone, tablet and desktop, installable as a web app). Progress is stored on the device.
+
+## Modes
+- Classic: play for a high score until no piece fits.
+- Daily Challenge: the same starting position for every player each day, with a streak.
+- Levels: gem puzzles on prepared boards (999 levels). Remove every gem by clearing its line or shifting it off the edge. Stars: 3 within par moves, 2 within twice par, 1 for any win.
+
+## Facts
+- Board: 8×8. Hand of 3 pieces; pieces do not rotate.
+- Scoring: 1 point per placed block, 100 per cleared line, with multipliers for several lines at once and for consecutive clears (combo up to 400%).
+- Languages (15): English, German, Spanish, French, Italian, Portuguese, Polish, Turkish, Indonesian, Vietnamese, Russian, Japanese, Korean, Simplified Chinese, Traditional Chinese.
+- Accessibility: colorblind-friendly shapes, high contrast, reduced motion, larger text.
+- Also on itch.io and Game Jolt. Author: Guan Chung Chen.
+
+## Pages
+- [Home](https://kerslide.com/): overview, FAQ
+- [How to play](https://kerslide.com/how-to-play/): rules, the shift, scoring basics
+- [Strategy tips](https://kerslide.com/tips/): planning around the right and down shift
+- [Levels mode](https://kerslide.com/levels/): gems, par and stars
+- [Press kit](https://kerslide.com/press.html): screenshots, logo, facts
+- [Support](https://kerslide.com/support.html)
+- Localized home pages: https://kerslide.com/de/, /es/, /fr/, /it/, /pt/, /pl/, /tr/, /id/, /vi/, /ru/, /ja/, /ko/, /zh-hans/, /zh-hant/

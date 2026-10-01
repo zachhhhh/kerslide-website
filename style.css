@@ -90,3 +90,12 @@ h1 { font-size: clamp(38px, 6vw, 64px); line-height: 1.05; letter-spacing: -1.5p
 .langs { padding-bottom: 40px; }
 .langs p, .langlinks { color: var(--muted); line-height: 2; }
 .langs a, .langlinks a { white-space: nowrap; }
+.fig { margin: 18px 0; text-align: center; }
+.fig img { width: min(100%, 323px); height: auto; border-radius: 16px; border: 1px solid var(--line); }
+.crumbs { font-size: 14px; color: var(--muted); margin: 0 0 6px; }
+.crumbs a { color: var(--muted); }
+.doc .lead { margin-top: 0; }
+.doc ul { padding-left: 1.2em; }
+.more { color: var(--muted); }
+nav a[aria-current] { color: var(--ink); font-weight: 700; }
+@media (max-width: 600px) { .top { flex-wrap: wrap; gap: 8px; } nav a { margin: 0 14px 0 0; } .doc h1 { font-size: 32px; } }
