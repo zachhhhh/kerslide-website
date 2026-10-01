@@ -14,7 +14,7 @@ Play: https://kerslide.com/play/ (about 4 MB to load, works on phone, tablet and
 - Scoring: 1 point per placed block, 100 per cleared line, with multipliers for several lines at once and for consecutive clears (combo up to 400%).
 - Languages (15): English, German, Spanish, French, Italian, Portuguese, Polish, Turkish, Indonesian, Vietnamese, Russian, Japanese, Korean, Simplified Chinese, Traditional Chinese.
 - Accessibility: colorblind-friendly shapes, high contrast, reduced motion, larger text.
-- Also on itch.io and Game Jolt. Author: Guan Chung Chen.
+- Also on itch.io and Game Jolt. Developer: Kerslide.
 
 ## Pages
 - [Home](https://kerslide.com/): overview, FAQ
