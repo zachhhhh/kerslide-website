@@ -82,3 +82,11 @@ h1 { font-size: clamp(38px, 6vw, 64px); line-height: 1.05; letter-spacing: -1.5p
   body { padding-bottom: 72px; }
   .facts th { width: 40%; }
 }
+.about h2, .langs h2 { font-size: 30px; }
+.prose { max-width: 46em; }
+.prose p { margin: 0 0 14px; }
+.bul { padding-left: 1.2em; margin: 0 0 14px; }
+.bul li { margin: 4px 0; }
+.langs { padding-bottom: 40px; }
+.langs p, .langlinks { color: var(--muted); line-height: 2; }
+.langs a, .langlinks a { white-space: nowrap; }
