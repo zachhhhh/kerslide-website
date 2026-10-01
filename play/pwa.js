@@ -8,7 +8,11 @@
   var local = host === "localhost" || host === "127.0.0.1";
   var framed;
   try { framed = window.top !== window.self; } catch (e) { framed = true; }
-  var noPortal = function () { return !/[?&]portal=/.test(location.search) && !window.kerslidePortal; };
+  // "adsense" is kerslide.com itself with Google H5 Games Ads (KerslidePortal.jspre), not a portal copy: the PWA stays on.
+  var noPortal = function () {
+    var p = window.kerslidePortal;
+    return !/[?&]portal=/.test(location.search) && (!p || p === "adsense");
+  };
   var enabled = (official || local) && !framed && noPortal() && window.isSecureContext && "serviceWorker" in navigator;
   var pwa = window.kerslidePwa = { enabled: enabled, registration: null, installed: false };
   if (!enabled) return;

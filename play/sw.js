@@ -8,6 +8,8 @@
 //   Build/* (hashed names)         cache first
 //   StreamingAssets/* (music)      cache first, per build cache
 //   anything else in scope         network first, cached copy when offline
+// Requests outside the scope are never answered here, so other origins (Google's adsbygoogle.js and ad frames on
+// kerslide.com/play) are never cached: offline they just fail and the game runs without ads.
 "use strict";
 
 var params = new URL(self.location.href).searchParams;
