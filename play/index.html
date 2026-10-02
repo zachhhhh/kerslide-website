@@ -45,8 +45,8 @@
     <script>
       // Build file names for the service worker (pwa.js registers sw.js?build=… once the game runs).
       window.kerslideBuild = { version: "1.0.0", files: [
-        "274e4cf661bbc896136499d0cc03eb9c.loader.js", "a3cc0c1c2bb9b2a477bd42feee29bab3.framework.js.unityweb", "0124ffea9a463c04668afe3999d70364.data.unityweb",
-        "89b7fa29c621cfbac69e17495b03ca29.wasm.unityweb",
+        "33694188ff3b31869ab6e9b4664c13bf.loader.js", "961a11b37c3705297b241bae3d1d4c58.framework.js.unityweb", "06e4ca0dfbcb8583630d41ccd205bd70.data.unityweb",
+        "0cb0358bb2f65a6fb808e7782819fb85.wasm.unityweb",
       ] };
     </script>
     <script src="pwa.js" defer></script>
@@ -77,9 +77,9 @@
         var buildUrl = "Build";
         var config = {
           arguments: [],
-          dataUrl: buildUrl + "/0124ffea9a463c04668afe3999d70364.data.unityweb",
-          frameworkUrl: buildUrl + "/a3cc0c1c2bb9b2a477bd42feee29bab3.framework.js.unityweb",
-          codeUrl: buildUrl + "/89b7fa29c621cfbac69e17495b03ca29.wasm.unityweb",
+          dataUrl: buildUrl + "/06e4ca0dfbcb8583630d41ccd205bd70.data.unityweb",
+          frameworkUrl: buildUrl + "/961a11b37c3705297b241bae3d1d4c58.framework.js.unityweb",
+          codeUrl: buildUrl + "/0cb0358bb2f65a6fb808e7782819fb85.wasm.unityweb",
           streamingAssetsUrl: "StreamingAssets",
           companyName: "Kerslide",
           productName: "Kerslide",
@@ -89,7 +89,7 @@
           devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2),
         };
         var script = document.createElement("script");
-        script.src = buildUrl + "/274e4cf661bbc896136499d0cc03eb9c.loader.js";
+        script.src = buildUrl + "/33694188ff3b31869ab6e9b4664c13bf.loader.js";
         script.onload = function () {
           createUnityInstance(canvas, config, function (progress) {
             document.querySelector("#fill").style.width = (100 * progress) + "%";
