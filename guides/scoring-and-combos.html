@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kerslide scoring and combos: the exact numbers</title>
+  <meta name="description" content="How scoring works in Kerslide: 1 point per block, 100 per line, multi-line bonus up to 300%, combo bonus up to 400% with two grace moves. Tables and worked examples.">
+  <link rel="canonical" href="https://kerslide.com/guides/scoring-and-combos.html">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#F4F6FA">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Kerslide">
+  <meta property="og:title" content="Kerslide scoring and combos: the exact numbers">
+  <meta property="og:description" content="How scoring works in Kerslide: 1 point per block, 100 per line, multi-line bonus up to 300%, combo bonus up to 400% with two grace moves. Tables and worked examples.">
+  <meta property="og:url" content="https://kerslide.com/guides/scoring-and-combos.html">
+  <meta property="og:image" content="https://kerslide.com/img/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/img/icon.png">
+  <link rel="stylesheet" href="/style.css">
+  <style>.diagram{margin:18px 0;text-align:center}.diagram svg{max-width:100%;height:auto}.diagram figcaption{font-size:14px;color:#5D6679;margin-top:6px}.pair{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}.pair .diagram{margin:8px 0}table.data{border-collapse:collapse;width:100%;margin:12px 0}table.data th,table.data td{border:1px solid #DCE3EE;padding:6px 8px;text-align:left;font-size:15px}table.data th{background:#EEF2F8}.pieces{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin:12px 0}.pieces div{border:1px solid #DCE3EE;border-radius:10px;padding:10px;text-align:center;font-size:14px}.toc li{margin:4px 0}</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Scoring and combos: the exact numbers", "description": "How scoring works in Kerslide: 1 point per block, 100 per line, multi-line bonus up to 300%, combo bonus up to 400% with two grace moves. Tables and worked examples.", "mainEntityOfPage": "https://kerslide.com/guides/scoring-and-combos.html", "image": "https://kerslide.com/img/og.png", "datePublished": "2026-10-09", "dateModified": "2026-10-09", "inLanguage": "en", "author": {"@type": "Organization", "name": "Kerslide"}, "publisher": {"@type": "Organization", "name": "Kerslide"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Kerslide", "item": "https://kerslide.com/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://kerslide.com/guides/"}, {"@type": "ListItem", "position": 3, "name": "Scoring and combos", "item": "https://kerslide.com/guides/scoring-and-combos.html"}]}</script>
+</head>
+<body>
+  <header class="wrap top">
+    <a class="brand" href="/"><img src="/img/icon.png" alt="" width="40" height="40"> Kerslide</a>
+    <nav><a class="navplay" href="/play/">Play</a> <a href="/how-to-play/">How to play</a> <a href="/tips/">Tips</a> <a href="/guides/">Guides</a> <a href="/levels/">Levels</a> <a href="/support.html">Support</a></nav>
+  </header>
+  <main class="wrap doc">
+    <p class="crumbs"><a href="/">Kerslide</a> &rsaquo; <a href="/guides/">Guides</a> &rsaquo; Scoring and combos</p>
+    <h1>Scoring and combos: the exact numbers</h1>
+    <p class="lead">Every point in Kerslide comes from two simple rules and two multipliers. Here they are, with examples you can check in your next game.</p>
+    <p><a class="btn primary" href="/play/">&#9654;&nbsp; Play free</a> <span class="cta-note">In your browser · no download · no sign-up</span></p>
+
+    <p>Kerslide's score is simple enough to work out in your head, and knowing the numbers changes which moves are worth making. This page lists every rule with worked examples. The numbers are taken straight from the game's configuration.</p>
+    <h2>The formula</h2>
+    <p>Each placement earns two kinds of points:</p>
+    <ul>
+      <li><strong>Placement points:</strong> 1 point for every block in the piece you place. A single block is worth 1, a 2×2 square is worth 4, the large five-block corner is worth 5.</li>
+      <li><strong>Clear points:</strong> 100 points per cleared line, multiplied by a <em>multi-line bonus</em> (for clearing several lines with one piece) and by a <em>combo bonus</em> (for clearing on consecutive placements).</li>
+    </ul>
+    <p>Placement points are small. Almost all of a good score comes from clears, and especially from the two multipliers.</p>
+    <h2>Multi-line bonus</h2>
+    <p>Clearing several lines with a single piece is worth much more than clearing them one at a time. Rows and columns both count as lines.</p>
+    <table class="data"><tr><th>Lines cleared at once</th><th>Multiplier</th><th>Clear points (no combo)</th></tr><tr><td>1</td><td>100%</td><td>100</td></tr><tr><td>2</td><td>150%</td><td>300</td></tr><tr><td>3</td><td>200%</td><td>600</td></tr><tr><td>4</td><td>250%</td><td>1000</td></tr><tr><td>5</td><td>300%</td><td>1500</td></tr></table>
+    <p>Clearing two lines in one move gives 300 points instead of 200 for two separate single clears. Four lines at once are worth 1,000. Remember that the board still only shifts by one cell however many lines you clear (see <a href="/guides/shift-rule-explained.html">the shift rule</a>), so big clears are not riskier than small ones.</p>
+    <h2>Combo bonus</h2>
+    <p>Every placement that clears at least one line extends your combo. Each step adds 50% to the clear points, up to a cap of 400%.</p>
+    <table class="data"><tr><th>Combo (clears in a row)</th><th>Multiplier</th><th>Points for a 1-line clear</th></tr><tr><td>1</td><td>100%</td><td>100</td></tr><tr><td>2</td><td>150%</td><td>150</td></tr><tr><td>3</td><td>200%</td><td>200</td></tr><tr><td>4</td><td>250%</td><td>250</td></tr><tr><td>5</td><td>300%</td><td>300</td></tr><tr><td>6</td><td>350%</td><td>350</td></tr><tr><td>7+</td><td>400%</td><td>400</td></tr></table>
+    <p>The combo is forgiving: it survives <strong>two placements that clear nothing</strong>. It only resets on the third non-clearing placement in a row. That grace period is the key to high scores, because it lets you place a piece or two to set up the next line without losing the multiplier.</p>
+    <h2>Worked examples</h2>
+    <ul>
+      <li>You place a 2×2 square and nothing clears: <strong>4 points</strong>.</li>
+      <li>You place a three-block line that completes one row, and it is your first clear: 3 + 100 = <strong>103 points</strong>.</li>
+      <li>Your next piece, an L of four blocks, clears two lines at once. Combo is now 2 (150%) and the multi-line bonus is 150%: 4 + 2 × 100 × 1.5 × 1.5 = <strong>454 points</strong>.</li>
+      <li>You place one filler piece that clears nothing (combo kept, 1 of 2 grace moves used), then a three-block piece that clears three lines. Combo 3 (200%) and multi-line 200%: 3 + 3 × 100 × 2 × 2 = <strong>1,203 points</strong>.</li>
+    </ul>
+    <h2>What this means for strategy</h2>
+    <ol>
+      <li><strong>Set up doubles.</strong> Two rows (or a row and a column) that are each one block short and can be finished by the same piece are worth building toward. The 150% bonus applies on top of any combo.</li>
+      <li><strong>Protect the combo.</strong> Before placing a piece that clears nothing, count: if this is the third quiet placement in a row, the streak is gone. Sometimes a small, early clear is worth more than waiting for a big one.</li>
+      <li><strong>Do not chase placement points.</strong> Choosing big pieces for their block count rarely matters; one extra clear is worth more than a whole game of placement points.</li>
+      <li><strong>Survival first.</strong> A long game with steady clears beats a greedy setup that fills the board. See <a href="/guides/survival-when-the-board-is-full.html">how to survive a crowded board</a>.</li>
+    </ol>
+    <h2>Levels mode scoring</h2>
+    <p>Levels mode does not use points. Each level is won by removing every gem, and you earn stars for finishing close to the level's par, the number of moves the game's solver needed. See the <a href="/guides/levels-strategy.html">Levels strategy guide</a>.</p>
+
+    <p class="center"><a class="btn primary big" href="/play/">&#9654;&nbsp; Play Kerslide free</a></p>
+    <p class="more">More guides: <a href="/guides/">all guides</a> · <a href="/how-to-play/">How to play</a> · <a href="/tips/">Tips</a></p>
+  </main>
+  <footer class="wrap foot">
+    <span>© 2026 Kerslide</span>
+    <a href="/">Home</a>
+    <a href="/how-to-play/">How to play</a>
+    <a href="/tips/">Tips</a>
+    <a href="/guides/">Guides</a>
+    <a href="/levels/">Levels</a>
+    <a href="/press.html">Press kit</a>
+    <a href="/privacy.html">Privacy policy</a>
+    <a href="/terms.html">Terms</a>
+    <a href="/support.html">Support</a>
+    <a href="/feedback.html">Send feedback</a>
+  </footer>
+</body>
+</html>
