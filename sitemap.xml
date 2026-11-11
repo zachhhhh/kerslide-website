@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://kerslide.com/</loc><lastmod>2026-10-01</lastmod><priority>1.0</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://kerslide.com/</loc><lastmod>2026-11-11</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
   <url><loc>https://kerslide.com/play/</loc><lastmod>2026-10-01</lastmod><priority>0.9</priority></url>
   <url><loc>https://kerslide.com/how-to-play/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
   <url><loc>https://kerslide.com/tips/</loc><lastmod>2026-10-02</lastmod><priority>0.7</priority></url>
@@ -11,20 +37,600 @@
   <url><loc>https://kerslide.com/privacy.html</loc><lastmod>2026-09-28</lastmod><priority>0.2</priority></url>
   <url><loc>https://kerslide.com/terms.html</loc><lastmod>2026-09-28</lastmod><priority>0.2</priority></url>
   <url><loc>https://kerslide.com/delete-data.html</loc><lastmod>2026-10-01</lastmod><priority>0.2</priority></url>
-  <url><loc>https://kerslide.com/de/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
-  <url><loc>https://kerslide.com/es/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
-  <url><loc>https://kerslide.com/fr/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
-  <url><loc>https://kerslide.com/it/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
-  <url><loc>https://kerslide.com/pt/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
-  <url><loc>https://kerslide.com/pl/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
-  <url><loc>https://kerslide.com/tr/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
-  <url><loc>https://kerslide.com/id/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
-  <url><loc>https://kerslide.com/vi/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
-  <url><loc>https://kerslide.com/ru/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
-  <url><loc>https://kerslide.com/ja/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
-  <url><loc>https://kerslide.com/ko/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
-  <url><loc>https://kerslide.com/zh-hans/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
-  <url><loc>https://kerslide.com/zh-hant/</loc><lastmod>2026-10-02</lastmod><priority>0.8</priority></url>
+  <url><loc>https://kerslide.com/de/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
+  <url><loc>https://kerslide.com/es/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
+  <url><loc>https://kerslide.com/fr/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
+  <url><loc>https://kerslide.com/it/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
+  <url><loc>https://kerslide.com/pt/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
+  <url><loc>https://kerslide.com/pl/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
+  <url><loc>https://kerslide.com/tr/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
+  <url><loc>https://kerslide.com/id/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
+  <url><loc>https://kerslide.com/vi/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
+  <url><loc>https://kerslide.com/ru/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
+  <url><loc>https://kerslide.com/ja/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
+  <url><loc>https://kerslide.com/ko/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
+  <url><loc>https://kerslide.com/zh-hans/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
+  <url><loc>https://kerslide.com/zh-hant/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
+  <url><loc>https://kerslide.com/hi/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
+  <url><loc>https://kerslide.com/ar/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
+  <url><loc>https://kerslide.com/th/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
+  <url><loc>https://kerslide.com/bn/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
+  <url><loc>https://kerslide.com/fil/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
+  <url><loc>https://kerslide.com/ms/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
+  <url><loc>https://kerslide.com/nl/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
+  <url><loc>https://kerslide.com/uk/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kerslide.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kerslide.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kerslide.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kerslide.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kerslide.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://kerslide.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://kerslide.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kerslide.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://kerslide.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://kerslide.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kerslide.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kerslide.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kerslide.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kerslide.com/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kerslide.com/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kerslide.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kerslide.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://kerslide.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://kerslide.com/bn/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://kerslide.com/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://kerslide.com/ms/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kerslide.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://kerslide.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kerslide.com/"/>
+  </url>
   <url><loc>https://kerslide.com/guides/</loc><lastmod>2026-10-09</lastmod><priority>0.8</priority></url>
   <url><loc>https://kerslide.com/guides/shift-rule-explained.html</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
   <url><loc>https://kerslide.com/guides/scoring-and-combos.html</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>

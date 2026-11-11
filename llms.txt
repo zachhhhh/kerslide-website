@@ -23,4 +23,4 @@ Play: https://kerslide.com/play/ (about 4 MB to load, works on phone, tablet and
 - [Levels mode](https://kerslide.com/levels/): gems, par and stars
 - [Press kit](https://kerslide.com/press.html): screenshots, logo, facts
 - [Support](https://kerslide.com/support.html)
-- Localized home pages: https://kerslide.com/de/, /es/, /fr/, /it/, /pt/, /pl/, /tr/, /id/, /vi/, /ru/, /ja/, /ko/, /zh-hans/, /zh-hant/
+- Localized home pages: https://kerslide.com/de/, /es/, /fr/, /it/, /pt/, /pl/, /tr/, /id/, /vi/, /ru/, /ja/, /ko/, /zh-hans/, /zh-hant/, /hi/ (Hindi), /ar/ (Arabic), /th/ (Thai), /bn/ (Bengali), /fil/ (Filipino), /ms/ (Malay), /nl/ (Dutch), /uk/ (Ukrainian). The game UI itself is in the 15 languages listed above; the extra home pages describe it in more languages.
